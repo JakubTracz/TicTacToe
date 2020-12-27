@@ -73,8 +73,9 @@ namespace LearnC
             }
 
             /// <summary>
-            /// Check the provided number and mark it on the board/check for 
+            /// Check the provided number and mark it on the board/check for incorrect values/taken fields
             /// </summary>
+            /// <returns>correctField</returns>
             public bool CheckNumber()
             {
                 bool correctField = true;
