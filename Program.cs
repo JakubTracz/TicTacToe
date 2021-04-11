@@ -158,6 +158,7 @@ namespace LearnC
                     return gameSwitch;
                 }
             }
+            //Restarts the game or ends it
             public bool RestartGame(int player)
             {
                 bool ifCorrect = false;
