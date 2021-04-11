@@ -24,6 +24,7 @@ namespace LearnC
             board.ResetBoard();
             board.RedrawBoard();
 
+            //game
             while (gameSwitch)
             {
                 player = players.ChangePlayer(player, correctField);
