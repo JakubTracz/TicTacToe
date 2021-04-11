@@ -10,6 +10,7 @@ namespace LearnC
 {
     class Program
     {
+        //Initial settings
         static bool gameSwitch = true;
         static int player = 2;
         static int p1 = 0;
