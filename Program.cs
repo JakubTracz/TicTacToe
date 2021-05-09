@@ -10,6 +10,7 @@ namespace LearnC
 {
     class Program
     {
+        //Initial settings
         static bool gameSwitch = true;
         static int player = 2;
         static int p1 = 0;
@@ -23,6 +24,7 @@ namespace LearnC
             board.ResetBoard();
             board.RedrawBoard();
 
+            //game
             while (gameSwitch)
             {
                 player = players.ChangePlayer(player, correctField);
@@ -158,6 +160,7 @@ namespace LearnC
                     return gameSwitch;
                 }
             }
+            //Restarts the game or ends it
             public bool RestartGame(int player)
             {
                 bool ifCorrect = false;
